@@ -14,11 +14,11 @@ Sitio web moderno y responsivo para la marca de café peruano Kafë.
 ## 📁 Estructura del Proyecto
 
 kafe-website/
-├── index.html (mover desde Paginas/)
-├── origen.html (mover desde Paginas/)
-├── culturacafetera2.html (mover desde Paginas/)
-├── tienda.html (mover desde Paginas/)
-├── contactanos.html (mover desde Paginas/)
+├── index.html 
+├── origen.html 
+├── culturacafetera2.html 
+├── tienda.html 
+├── contactanos.html 
 ├── Css/
 ├── Js/
 └── Imagenes/
