@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda - Kafë</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../Css/tienda.css">
+    <link rel="icon" type="image/png" href="../Imagenes/icon.png">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="../Imagenes/logo Kafë.png" alt="Logo Kafë" class="logo-img">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./origen.html">Origen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./culturacafetera2.html">Cultura Cafetera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contactanos.html">Contáctanos</a>
+                    </li>
+                </ul>
+                
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero de Tienda -->
+    <section class="shop-hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="hero-title animate-on-scroll">Nuestra Tienda</h1>
+                    <p class="hero-subtitle animate-on-scroll" data-delay="0.2">Explora nuestra selección premium de cafés peruanos para cada momento especial</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image animate-on-scroll" data-delay="0.4">
+                        <img src="../Imagenes/taza de cafe banner.png" alt="Café" class="img-fluid floating-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos -->
+    <section class="productos-section py-5">
+        <div class="container">
+            <div class="row g-4" id="productos-container">
+                <!-- Los productos se generarán dinámicamente -->
+            </div>
+            
+            <!-- Carrito flotante -->
+            <div class="floating-cart" id="floating-cart">
+                <div class="cart-header">
+                    <h5><i class="fas fa-shopping-cart me-2"></i>Tu Carrito</h5>
+                    <button class="btn-close-cart"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="cart-items" id="cart-items">
+                    <p class="empty-cart">Tu carrito está vacío</p>
+                </div>
+                <div class="cart-total">
+                    <h4>Total: S/<span id="total-amount">0.00</span></h4>
+                    <button class="btn btn-primary w-100 checkout-btn">
+                        <i class="fas fa-credit-card me-2"></i>Proceder al Pago
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="custom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="footer-text mb-0">2024-2 - Grupo 6 AEW - CIBERTEC</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="../Js/tienda.js"></script>
+</body>
+</html>
