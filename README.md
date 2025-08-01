@@ -12,3 +12,13 @@ Sitio web moderno y responsivo para la marca de café peruano Kafë.
 - ✅ Información sobre cultura cafetera
 
 ## 📁 Estructura del Proyecto
+
+kafe-website/
+├── index.html              # Página principal
+├── origen.html             # Historia del café
+├── culturacafetera2.html   # Cultura cafetera
+├── tienda.html             # Tienda online
+├── contactanos.html        # Página de contacto
+├── Css/                    # Archivos de estilos
+├── Js/                     # Scripts JavaScript
+└── Imagenes/               # Recursos gráficos
